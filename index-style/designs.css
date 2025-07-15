@@ -1,0 +1,33 @@
+
+.firstpage-design {
+    background-color: rgb(46, 45, 45);
+    height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.design-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-box {
+    width: 270px;
+    height: 420px;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.design-box img {
+    width: 270px;
+}
+
+@media (max-width: 667px){
+    .firstpage-design{
+        height: 120rem;
+    }
+}
